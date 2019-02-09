@@ -7,7 +7,7 @@ The ICs used are:
   * [TMP102](http://www.ti.com/lit/ds/symlink/tmp102.pdf) Temperature sensor
   * [Si7021](https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf) Humidity sensor
 
-The project implements two I2C intefaces. The default Arduino Pro mini hardware one and a software I2C inteface using [SoftwareWire](https://github.com/Testato/SoftwareWire) .
+The project implements two I2C intefaces. The default Arduino Pro mini hardware one and a software I2C inteface using [SoftwareWire](https://github.com/Testato/SoftwareWire) with pins (8,9) as SDA, SCL respectively.
 
 ## JASON_TSL2561
 A custom modification of the [Adafruit tsl2561 library](https://github.com/adafruit/TSL2561-Arduino-Library) is also implemented under
