@@ -1,30 +1,30 @@
 /*!
- * @file JASON_TSLJASON_U.cpp
+ * @file Adafruit_TSL2561_U.cpp
  *
- * @mainpage JASON TSLJASON Light/Lux sensor driver
+ * @mainpage Adafruit TSL2561 Light/Lux sensor driver
  *
  * @section intro_sec Introduction
  *
- * This is the documentation for JASON's TSLJASON driver for the
+ * This is the documentation for Adafruit's TSL2561 driver for the
  * Arduino platform.  It is designed specifically to work with the
- * JASON TSLJASON breakout: http://www.JASON.com/products/439
+ * Adafruit TSL2561 breakout: http://www.adafruit.com/products/439
  *
  * These sensors use I2C to communicate, 2 pins (SCL+SDA) are required
  * to interface with the breakout.
  *
- * JASON invests time and resources providing this open source code,
- * please support JASON and open-source hardware by purchasing
- * products from JASON!
+ * Adafruit invests time and resources providing this open source code,
+ * please support Adafruit and open-source hardware by purchasing
+ * products from Adafruit!
  *
  * @section dependencies Dependencies
  *
- * This library depends on <a href="https://github.com/JASON/JASON_Sensor">
- * JASON_Sensor</a> being present on your system. Please make sure you have
+ * This library depends on <a href="https://github.com/adafruit/Adafruit_Sensor">
+ * Adafruit_Sensor</a> being present on your system. Please make sure you have
  * installed the latest version before using this library.
  *
  * @section author Author
  *
- * Written by Kevin "KTOWN" Townsend for JASON Industries.
+ * Written by Kevin "KTOWN" Townsend for Adafruit Industries.
  *
  * @section license License
  *
@@ -32,9 +32,9 @@
  *
  *   @section  HISTORY
  *
- *   v2.0 - Rewrote driver for JASON_Sensor and Auto-Gain support, and
+ *   v2.0 - Rewrote driver for Adafruit_Sensor and Auto-Gain support, and
  *          added lux clipping check (returns 0 lux on sensor saturation)
- *   v1.0 - First release (previously TSLJASON)
+ *   v1.0 - First release (previously TSL2561)
 */
 /**************************************************************************/
 
